@@ -2,6 +2,9 @@ import requests
 import json 
 
 # script 
+
+print("Initailizing...")
+
 with open("ip.txt","r") as file:
     ip_list = file.readlines()
 
